@@ -9,6 +9,12 @@ export default {
       fontFamily: {
         roboto: ["Roboto", "sans-serif"], // Thay 'Roboto' bằng tên font bạn đã cài đặt
       },
+      container: {
+        padding: "3rem",
+        screens: {
+          "2xl": "1280px",
+        },
+      },
     },
   },
   plugins: [],
