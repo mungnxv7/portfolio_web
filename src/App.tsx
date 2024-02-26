@@ -8,13 +8,16 @@ import Projects from "./components/ProjectList/Projects";
 import Skills from "./components/Skills/Skills";
 
 function App() {
+  const info = {
+    title: "Nguyen Xuan Mung",
+    major: "Front-End Development",
+    linkCV: "",
+  };
   return (
-    <div className="font-roboto h-20">
-      <Header />
-      <div className="min-h-[640px] bg-[url(./assets/img/shapes-bg.png)] bg-cover flex items-center">
-        <HeroStart />
-      </div>
-      <div className="container">
+    <div className="font-roboto relative" id="home">
+      <Header title={info.title} />
+      <HeroStart major={info.major} linkCV={info.linkCV} title={info.title} />
+      <div className="px-3 sm:container">
         {/* About me */}
         <AboutMe />
         {/* Skils */}

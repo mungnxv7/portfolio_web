@@ -3,15 +3,11 @@ import github from "../../assets/img/github.svg";
 import live from "../../assets/img/live.svg";
 import play from "../../assets/img/play.svg";
 type Props = {
-  linkGithub?: string;
-  linkDeploy?: string;
-  linkVideo?: string;
+  linkGithub: string;
+  linkDeploy: string;
+  linkVideo: string;
 };
-const ActionProject = ({
-  linkDeploy = "",
-  linkGithub = "",
-  linkVideo = "",
-}: Props) => {
+const ActionProject = ({ linkDeploy, linkGithub, linkVideo }: Props) => {
   return (
     <div className="absolute z-10 opacity-0 group-hover:opacity-80 right-0 left-0 top-1/3 flex items-center justify-center gap-4 duration-500">
       <div
