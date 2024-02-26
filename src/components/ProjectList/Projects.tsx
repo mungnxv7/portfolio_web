@@ -22,15 +22,18 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="py-10 sm:py-20" id="projects">
+    <div className="py-10 sm:py-16" id="projects">
       <div className="text-center mb-4 pb-2">
         <h2 className="capitalize mb-4 text-black text-3xl font-semibold">
           Projects
         </h2>
       </div>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
-        {projects.map((project) => (
-          <div className="relative overflow-hidden rounded-lg shadow-2xl mt-4 group">
+        {projects.map((project, index) => (
+          <div
+            key={index}
+            className="relative overflow-hidden rounded-lg shadow-2xl mt-4 group"
+          >
             <img
               src={project.thumbnail}
               className="group-hover:origin-center group-hover:scale-110 group-hover:rotate-3 transition duration-500 h-full"

@@ -30,7 +30,7 @@ const Skills = () => {
     },
   ];
   return (
-    <div className="py-10 sm:py-20" id="skills">
+    <div className="py-10 sm:py-16" id="skills">
       <div className="text-center mb-4 pb-2">
         <h2 className="capitalize mb-4 text-black text-3xl font-semibold">
           Skills
