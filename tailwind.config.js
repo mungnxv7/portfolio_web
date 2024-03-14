@@ -16,6 +16,21 @@ export default {
           "2xl": "1280px",
         },
       },
+      animation: {
+        scaleIn: "scaleIn ease .5s",
+        scaleOut: "scaleOut ease .5s",
+      },
+      keyframes: {
+        scaleIn: {
+          from: {
+            transform: "scale(0)",
+            opacity: 0,
+          },
+          to: {
+            transform: "scale(1)",
+          },
+        },
+      },
     },
   },
   plugins: [],

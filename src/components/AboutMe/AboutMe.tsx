@@ -3,19 +3,7 @@ const AboutMe = () => {
     phone: "0962013495",
     email: "mungnxhnv7@gmail.com",
     address: "Quoc Oai - Ha Noi",
-    introduction: `Hello there,<br/>
-    I'm Nguyen Xuan Mung. I'm delighted to introduce myself to
-    everyone as a Front-end Developer. I have a passion for web
-    development, researching, and building interfaces and
-    interactions with users on the web to create enjoyable
-    experiences.
-    <br/>
-    Equipped with professional knowledge and proficiency in
-    programming languages HTML/CSS, Javascript, and having a basic
-    foundation in ReactJs and Redux Toolkit throughout my studies
-    <br/>
-    I strive to enhance my skills and explore new technologies. I
-    am eager to develop myself in this field and go even further.`,
+    introduction: "",
   };
   return (
     <div className="py-10 sm:py-20" id="about">
@@ -42,8 +30,27 @@ const AboutMe = () => {
               </div>
             </div>
             <div className="lg:col-span-9 md:col-span-8">
-              <div className="items-end md:text-start my-2 leading-6 text-base">
-                {info.introduction}
+              <div className="items-end md:text-start my-2">
+                <p>Hello there,</p>
+                <br />
+                <p>
+                  I'm Nguyen Xuan Mung. I'm delighted to introduce myself to
+                  everyone as a Front-end Developer. I have a passion for web
+                  development, researching, and building interfaces and
+                  interactions with users on the web to create enjoyable
+                  experiences.{" "}
+                </p>
+                <br />
+                <p>
+                  Equipped with professional knowledge and proficiency in
+                  programming languages HTML/CSS, Javascript, and having a basic
+                  foundation in ReactJs and Redux Toolkit throughout my studies{" "}
+                </p>
+                <br />
+                <p>
+                  I strive to enhance my skills and explore new technologies. I
+                  am eager to develop myself in this field and go even further.
+                </p>
               </div>
             </div>
           </div>

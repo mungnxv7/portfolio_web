@@ -31,7 +31,7 @@ const ActionProject = ({ linkDeploy, linkGithub, linkVideo }: Props) => {
         </a>
         <div className="absolute -top-full -translate-y-1/3 right-1/2 translate-x-1/2 w-max duration-300 title-action">
           <p className="bg-white text-primary px-2 py-1 rounded-lg text-xs">
-            Live Demo
+            Deploy
           </p>
           <div className="absolute border-[8px] border-t-white border-x-transparent border-b-transparent left-1/2 -translate-x-1/2 top-full"></div>
         </div>

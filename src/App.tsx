@@ -11,7 +11,8 @@ function App() {
   const info = {
     title: "Nguyen Xuan Mung",
     major: "Front-End Development",
-    linkCV: "",
+    linkCV:
+      "https://www.topcv.vn/xem-cv/A1sAAFIFUVAJVwMHWlcGVVgBAAEAU1MDBAABBA10bf?ta_source=EditCVInAfterSaveCV",
   };
   return (
     <div className="font-roboto relative" id="home">

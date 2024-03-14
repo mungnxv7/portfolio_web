@@ -32,10 +32,10 @@ const HeroStart = ({ title, major, linkCV }: Props) => {
             Hello! I'am <p>{title}</p>
           </h1>
 
-          <div className="mt-4 pt-2">
+          <div className="mt-4 pt-2 ">
             <a
               href={linkCV}
-              className="py-3 px-5 cursor-pointer rounded-lg text-white border-primary bg-primary  hover:-translate-y-1 mb-3"
+              className="py-3 px-5 cursor-pointer rounded-lg text-white border-primary bg-primary  hover:-translate-y-1 mb-3 hover:bg-primary/80"
             >
               <span className="mr-3">Download CV</span>
               <svg

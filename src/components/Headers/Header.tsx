@@ -53,8 +53,8 @@ const Header = ({ title }: Props) => {
           </div>
           <ul
             className={`${
-              dropDown ? "block" : "hidden"
-            } absolute shadow-[0px_9px_30px_rgba(0,0,0,0.3)] rounded-md  top-full items-center gap-5 font-medium  bg-white md:relative md:flex md:px-0 md:shadow-none md:bg-transparent  z-20 right-0  py-3 px-2 w-32 md:w-auto  duration-300`}
+              dropDown ? "block animate-scaleIn" : "hidden"
+            } absolute  shadow-[0px_9px_30px_rgba(0,0,0,0.3)] origin-top-right rounded-md  top-full items-center gap-5 font-medium  bg-white md:relative md:flex md:px-0 md:shadow-none md:bg-transparent  z-20 right-0  py-3 px-2 w-32 md:w-auto  duration-300`}
           >
             {menuLink.map((menu, index) => (
               <li key={index}>
