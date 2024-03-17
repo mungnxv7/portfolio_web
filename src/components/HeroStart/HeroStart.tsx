@@ -1,3 +1,4 @@
+import avatar from "../../assets/img/avatar.png";
 type Props = {
   title: string;
   major: string;
@@ -57,8 +58,8 @@ const HeroStart = ({ title, major, linkCV }: Props) => {
             </a>
           </div>
         </div>
-        <div className="w-3/5">
-          <img className="h-[300px]" src="" alt="" />
+        <div className="md:w-full">
+          <img className="object-cover" src={avatar} alt="" />
         </div>
       </div>
     </div>
